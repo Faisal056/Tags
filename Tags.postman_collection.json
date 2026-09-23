@@ -1,0 +1,365 @@
+{
+  "info": {
+    "_postman_id": "c5c3ea7d-a035-4f2b-81dc-1399beb06091",
+    "name": "Tags",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54506215",
+    "_collection_link": "https://go.postman.co/collection/54506215-c5c3ea7d-a035-4f2b-81dc-1399beb06091?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Start",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 54\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CP1",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 56\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CP2 PlygroundGate",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 58\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CP3 Plyground",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 57\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "CP4",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 59\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "End Patrol",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"shift_id\": 334599,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 55\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
