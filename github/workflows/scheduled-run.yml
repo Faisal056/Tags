@@ -24,7 +24,7 @@ jobs:
 
       - name: Run collection
         run: |
-          newman run Test.postman_collection.json \
+          newman run TestCollection.postman_collection.json \
             --delay-request 110000 \
             --timeout-request 60000 \
             --reporters cli,json \
