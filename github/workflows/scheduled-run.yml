@@ -1,0 +1,38 @@
+name: Scheduled Newman Run
+
+on:
+  schedule:
+    - cron: "0 8 * * *"      # every day at 08:00 UTC
+  workflow_dispatch:          # lets you run it manually to test
+
+jobs:
+  run-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25       # safety net so a stuck run can't go on forever
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Newman
+        run: npm install -g newman
+
+      - name: Run collection
+        run: |
+          newman run Test.postman_collection.json \
+            --delay-request 110000 \
+            --timeout-request 60000 \
+            --reporters cli,json \
+            --reporter-json-export results.json
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newman-results
+          path: results.json
