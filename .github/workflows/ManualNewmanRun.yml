@@ -1,0 +1,54 @@
+name: Manual Newman Run (3 hours)
+
+on:
+  workflow_dispatch:      # only runs when you click "Run workflow"
+
+jobs:
+  run-collection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 185    # safety cap: 3h + a few minutes' buffer
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Newman
+        run: npm install -g newman
+
+      - name: Run collection every 20 min for 3 hours
+        run: |
+          END=$((SECONDS + 3*60*60))   # 3 hours from now, in seconds
+          RUN=1
+          while [ $SECONDS -lt $END ]; do
+            echo "=== Run #$RUN starting at $(date -u) ==="
+            newman run TestCollection.postman_collection.json \
+              --delay-request 110000 \
+              --timeout-request 60000 \
+              --reporters cli,json \
+              --reporter-json-export "results-run${RUN}.json" || true
+
+            RUN=$((RUN + 1))
+            REMAINING=$((END - SECONDS))
+            if [ $REMAINING -le 0 ]; then
+              break
+            fi
+            # sleep until the top of the next 20-minute slot, capped by remaining time
+            SLEEP=$(( 1200 - (SECONDS % 1200) ))
+            if [ $SLEEP -gt $REMAINING ]; then
+              SLEEP=$REMAINING
+            fi
+            echo "Sleeping ${SLEEP}s before next run..."
+            sleep $SLEEP
+          done
+
+      - name: Save results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: newman-results
+          path: results-run*.json
