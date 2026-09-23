@@ -26,7 +26,7 @@ jobs:
           RUN=1
           while [ $SECONDS -lt $END ]; do
             echo "=== Run #$RUN starting at $(date -u) ==="
-            newman run TestCollection.postman_collection.json \
+            newman run Tags.postman_collection.json \
               --delay-request 110000 \
               --timeout-request 60000 \
               --reporters cli,json \
