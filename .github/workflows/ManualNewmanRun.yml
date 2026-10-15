@@ -22,7 +22,7 @@ jobs:
 
       - name: Run collection every 20 min for 3 hours
         run: |
-          END=$((SECONDS + 3*60*60))   # 3 hours from now, in seconds
+          END=$((SECONDS + 6*60*60))   # 3 hours from now, in seconds
           RUN=1
           while [ $SECONDS -lt $END ]; do
             echo "=== Run #$RUN starting at $(date -u) ==="
