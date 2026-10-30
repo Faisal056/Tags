@@ -43,7 +43,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 54\n}",
+          "raw": "{\n    \"shift_id\": 355764,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 54\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -102,66 +102,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 56\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
-          "protocol": "https",
-          "host": [
-            "controlledspace",
-            "parim",
-            "co"
-          ],
-          "path": [
-            "mobileApi",
-            "checkCheckpoint"
-          ]
-        }
-      },
-      "response": []
-    },
-    {
-      "name": "CP2 PlygroundGate",
-      "request": {
-        "method": "POST",
-        "header": [
-          {
-            "key": "Host",
-            "value": "controlledspace.parim.co"
-          },
-          {
-            "key": "accept",
-            "value": "application/json"
-          },
-          {
-            "key": "content-type",
-            "value": "application/json"
-          },
-          {
-            "key": "accept-charset",
-            "value": "UTF-8"
-          },
-          {
-            "key": "accept-language",
-            "value": "en-GB,en;q=0.9"
-          },
-          {
-            "key": "user-agent",
-            "value": "PARiM App (VERSION: 2.12.0; BUILD: 243; OS: iOS 26.2; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
-          },
-          {
-            "key": "priority",
-            "value": "u=3"
-          }
-        ],
-        "body": {
-          "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 58\n}",
+          "raw": "{\n    \"shift_id\": 355764,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 56\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -220,7 +161,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 57\n}",
+          "raw": "{\n    \"shift_id\": 355764,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 57\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -279,7 +220,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 59\n}",
+          "raw": "{\n    \"shift_id\": 355764,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 59\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -338,7 +279,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n    \"shift_id\": 355763,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 55\n}",
+          "raw": "{\n    \"shift_id\": 355764,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 55\n}",
           "options": {
             "raw": {
               "language": "json"
