@@ -1,0 +1,279 @@
+{
+  "info": {
+    "_postman_id": "3b740328-fa89-4dae-93a8-3bede79ce50e",
+    "name": "New Tags Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54506215",
+    "_collection_link": "https://go.postman.co/collection/54506215-3b740328-fa89-4dae-93a8-3bede79ce50e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "New Request Start",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "baggage",
+            "value": "sentry-environment=production,sentry-public_key=139a771c0e0e1bd7d7c51a5f2223838f,sentry-release=co.uk.parim.app%402.19.9%2B402,sentry-trace_id=2ac8319e58ac48c6a35e7b733bb5b6bd"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "sentry-trace",
+            "value": "2ac8319e58ac48c6a35e7b733bb5b6bd-359c502981ec4688-0"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.19.9; BUILD: 402; OS: iOS 27.0; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{    \"shift_id\": 355768,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 54}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request CP1",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "baggage",
+            "value": "sentry-environment=production,sentry-public_key=139a771c0e0e1bd7d7c51a5f2223838f,sentry-release=co.uk.parim.app%402.19.9%2B402,sentry-trace_id=2ac8319e58ac48c6a35e7b733bb5b6bd"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "sentry-trace",
+            "value": "2ac8319e58ac48c6a35e7b733bb5b6bd-359c502981ec4688-0"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.19.9; BUILD: 402; OS: iOS 27.0; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{    \"shift_id\": 355768,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 56}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request Plyground",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "baggage",
+            "value": "sentry-environment=production,sentry-public_key=139a771c0e0e1bd7d7c51a5f2223838f,sentry-release=co.uk.parim.app%402.19.9%2B402,sentry-trace_id=2ac8319e58ac48c6a35e7b733bb5b6bd"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "sentry-trace",
+            "value": "2ac8319e58ac48c6a35e7b733bb5b6bd-359c502981ec4688-0"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.19.9; BUILD: 402; OS: iOS 27.0; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{    \"shift_id\": 355768,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 57}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request Bttm Fence",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Host",
+            "value": "controlledspace.parim.co"
+          },
+          {
+            "key": "content-type",
+            "value": "application/json"
+          },
+          {
+            "key": "accept",
+            "value": "application/json"
+          },
+          {
+            "key": "baggage",
+            "value": "sentry-environment=production,sentry-public_key=139a771c0e0e1bd7d7c51a5f2223838f,sentry-release=co.uk.parim.app%402.19.9%2B402,sentry-trace_id=2ac8319e58ac48c6a35e7b733bb5b6bd"
+          },
+          {
+            "key": "accept-charset",
+            "value": "UTF-8"
+          },
+          {
+            "key": "priority",
+            "value": "u=3"
+          },
+          {
+            "key": "accept-language",
+            "value": "en-GB,en;q=0.9"
+          },
+          {
+            "key": "sentry-trace",
+            "value": "2ac8319e58ac48c6a35e7b733bb5b6bd-359c502981ec4688-0"
+          },
+          {
+            "key": "user-agent",
+            "value": "PARiM App (VERSION: 2.19.9; BUILD: 402; OS: iOS 27.0; BRAND: Apple; MODEL: iPhone 17 Pro Max)"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{    \"shift_id\": 355768,\n    \"auth_token\": \"f13aae13d504b0c504d0ffcda6141d1af7b90184\",\n    \"accuracy\": 0,\n    \"checkpoint_id\": 59}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://controlledspace.parim.co/mobileApi/checkCheckpoint",
+          "protocol": "https",
+          "host": [
+            "controlledspace",
+            "parim",
+            "co"
+          ],
+          "path": [
+            "mobileApi",
+            "checkCheckpoint"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
